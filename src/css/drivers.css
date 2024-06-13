@@ -13,8 +13,9 @@ nav #drivers::before{
     transition: all .3s;
 }
 
-section.slides h2{
-    margin: 20px 290px;
+
+.title-container h2 {
+    margin: 20px;
+    margin-left: 350px;
     font-weight: 500;
 }
-
