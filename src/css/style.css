@@ -76,12 +76,12 @@ nav ul li a:hover::before{
 }
 
 .e-tv{
+    margin-left: 500px;
     margin-top: 10px;
 }
 
 .e-tv img{
-    margin-left: 500px;
-    margin-right: -100px;
+    margin-right: 40px;
     width: 70px;
 }
 

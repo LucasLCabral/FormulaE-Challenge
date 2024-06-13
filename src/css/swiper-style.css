@@ -68,11 +68,11 @@ body {
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: #ff5151; /* Cor das setas quando ativas */
+    color: #0054fc; /* Cor das setas quando ativas */
     transition: color .3s ease;
 }
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover{
-    color: #FF0000;
+    color: #0000ff;
 }
