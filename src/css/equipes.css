@@ -16,6 +16,12 @@ body {
 
 .section-1 .content, .section-2 .driver {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .content {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -57,7 +63,7 @@ body {
 .section-1 .audio-icon {
     margin-right: 10px;
     cursor: pointer;
-    font-size: 70px; /* Adicionei isso para garantir que o ícone seja grande o suficiente */
+    font-size: 70px;
 }
 
 .section-1 a {
@@ -117,4 +123,17 @@ body {
 
 .drivers-title span {
     color: black;
+}
+
+.section-2, .section-titulo {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.section-2.appear {
+    opacity: 1;
+}
+
+.section-titulo.appear{
+    opacity: 1;
 }
