@@ -6,7 +6,7 @@ body {
 }
 
 .section-1, .section-2 {
-    background-color: #f5f5f5;
+    background-color: #f7f7f7;
     border-radius: 10px;
     margin: 20px auto;
     padding: 20px;
@@ -50,14 +50,14 @@ body {
 .section-1 .audio {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0px;
     justify-content: center;
 }
 
 .section-1 .audio-icon {
-    max-width: 200px; /* Atualização */
     margin-right: 10px;
     cursor: pointer;
+    font-size: 70px; /* Adicionei isso para garantir que o ícone seja grande o suficiente */
 }
 
 .section-1 a {
