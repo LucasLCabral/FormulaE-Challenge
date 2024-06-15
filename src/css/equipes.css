@@ -5,10 +5,18 @@ body {
 
 }
 
+.section-1{
+    margin: 250px auto 0 auto;
+    bottom: 0;
+}
+
+.section-2{
+    margin: 20px auto;
+}
+
 .section-1, .section-2 {
     background-color: #f7f7f7;
     border-radius: 10px;
-    margin: 20px auto;
     padding: 20px;
     max-width: 1280px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -63,7 +71,11 @@ body {
 .section-1 .audio-icon {
     margin-right: 10px;
     cursor: pointer;
-    font-size: 70px;
+    font-size: 40px;
+}
+
+.section-1 .audio p{
+    font-weight: 500;
 }
 
 .section-1 a {
