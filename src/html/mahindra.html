@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/src/css/swiper-style.css">
     <link rel="stylesheet" href="/src/css/team-layout.css">
+    <link rel="stylesheet" href="/src/css/equipes.css">
     <!--FIM CSS-->
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,12 +55,56 @@
         </div>
     </header>
 
-    <section class="sobre">
-        <div class="interface">
-            <h2>Mahindra Racing</h2>
+    <section class="section-1">
+        <div class="content">
+            <img src="/src/assets/logos-carros-pilotos/mahindra-off-fundo.png" alt="Mahindra Car" class="car-image">
+            <div class="text-content">
+                <img src="/src/assets/logos-carros-pilotos/logo-do-grupo-mahindra.png" alt="Mahindra Logo" class="logo">
+                <h1>Mahindra Formula E Team</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit,</p>
+                <div class="audio">
+                    <audio id="musica">
+                        <source src="/src/assets/audio/corrida.mp3" type="audio/mpeg">
+                      </audio>
+                      <img src="/src/assets/logos-carros-pilotos/img-audio.jpg" alt="Audio Icon" class="audio-icon" onclick="som()">
+                    </div>
+                </div>
+            </div>
         </div>
-        
     </section>
+
+
+    <section class="section-2">
+        <h2>Mahindra Drivers</h2>
+        <div class="driver">
+            <img src="/src/assets/logos-carros-pilotos/Eduardo-sem-fundo.png" alt="Edoardo Mortara" class="driver-image">
+            <div class="driver-info">
+                <img src="/src/assets/logos-carros-pilotos/logo-do-grupo-mahindra.png" alt="Mahindra Logo" class="logo">
+                <h3>Edoardo Mortara</h3>
+                <p><strong>06/02/1995 (29) Country:</strong> <img src="/src/assets/logos-carros-pilotos/suiça.png" alt="Switzerland Flag" class="flag"></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit,</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h4>CORRIDAS</h4>
+                        <p>91</p>
+                    </div>
+                    <div class="stat">
+                        <h4>VITÓRIAS</h4>
+                        <p>6</p>
+                    </div>
+                    <div class="stat">
+                        <h4>PÓDIOS</h4>
+                        <p>13</p>
+                    </div>
+                    <div class="stat">
+                        <h4>POLES</h4>
+                        <p>3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--JAVA SCRIPT-->
     <script src="/src/js/script.js"></script>
     <!--FIM JAVA SCRIPT-->

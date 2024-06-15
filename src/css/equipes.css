@@ -1,0 +1,80 @@
+.section-1, .section-2 {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section-1 .content, .section-2 .driver {
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .car-image, .section-2 .driver-image {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.section-1 .text-content, .section-2 .driver-info {
+    max-width: 50%;
+}
+
+.section-1 .logo, .section-2 .logo {
+    max-width: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.section-1 h1, .section-2 h2, .section-2 h3 {
+    margin: 10px 0;
+}
+
+.section-1 p, .section-2 p {
+    margin: 10px 0;
+}
+
+.section-1 .audio {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section-1 .audio-icon {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.section-1 a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-2 .flag {
+    max-width: 20px;
+    vertical-align: middle;
+}
+
+.section-2 .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section-2 .stat {
+    text-align: center;
+}
+
+.section-2 .stat h4 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.section-2 .stat p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
