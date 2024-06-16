@@ -21,7 +21,8 @@
 header{
     padding-bottom: -200px;
     display: flex;
-    box-shadow: 0 0 8px #b6b6b6;
+    box-shadow: 0 0 8px #1919193e;
+    background-color: #fff;
     justify-content: space-around;
 }
 
@@ -39,7 +40,7 @@ nav ul{
 }
 
 nav ul .flex{
-    margin-top: 10px;
+    margin-top: 30px;
     gap: 30px;
 }
 
@@ -128,6 +129,19 @@ nav ul li a:hover::before{
 
 .teams h2{
     font-weight: 500;
+}
+
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* SLides */
