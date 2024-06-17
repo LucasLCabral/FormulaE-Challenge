@@ -25,3 +25,24 @@ nav #rules::before {
     margin-left: 350px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1280px){ 
+    .rules-title{
+        margin-left: 70px;
+    }
+    section.rules h2{
+        margin-bottom: -50px;
+    }
+
+    .rules-content{
+        padding: 100px;
+    }   
+
+    .rules-content img{
+        width: 650px;
+    }
+
+    .footer{
+        padding: 100px 0px;
+    }
+}

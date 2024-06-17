@@ -32,6 +32,9 @@ nav #ecology::before {
 }
 
 @media screen and (max-width: 1280px){ 
+    .rules-title{
+        margin-left: 70px;
+    }
     section.rules h2{
         margin-bottom: -50px;
     }
