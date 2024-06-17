@@ -64,7 +64,7 @@ nav ul li a::before{
     content: "";
     background-color: #0000FF;
     position: absolute;
-    left: 0;
+    left: 10px;
     bottom: -0.3rem;
     height: 3px;
     width: 0;
@@ -72,7 +72,7 @@ nav ul li a::before{
 }
 
 nav ul li a:hover::before{
-    width: 92%;
+    width: 80%;
     bottom: -0.3rem;
 }
 
@@ -121,6 +121,45 @@ nav ul li a:hover::before{
     padding: 10px 20px;
     background-color: blue;
     border-radius: 10px;
+}
+
+.inicio{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.inicio h1{
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.inicio h1 span{
+    color: #0000FF;
+}
+
+.inicio p{
+    font-size: 20px;
+}
+
+.inicio button{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 2px solid white;
+    background-color: #0000FF;
+    color: white;
+    border-radius: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.inicio button:hover{
+    transform: scale(1.03);
 }
 
 .teams{
