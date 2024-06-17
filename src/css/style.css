@@ -170,11 +170,15 @@ nav ul li a:hover::before{
     font-weight: 500;
 }
 
-.banner video{
+.banner-desktop video{
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+.banner-mobile video{
+    display: none;
 }
 @media(min-aspect-ratio: 16/9){
     .banner video{

@@ -123,6 +123,8 @@ body {
     color: red;
 }
 
+
+
 .drivers-title {
     text-align: center;
     margin: 40px auto 20px;
@@ -133,6 +135,94 @@ body {
     color: red;
 }
 
+/* ABT CUPRA */
+.classification p.cupra{
+    color: #004AAD;
+}
+
+.section-2 .stat p.cupra {
+    color: #004AAD;
+}
+
+.drivers-title .cupra{
+    color: #004AAD;
+}
+
+/* FIM ABT CUPRA */
+
+/* PENSKE */
+.classification p.penske {
+    color: #CBA65F;
+}
+
+.section-2 .stat p.penske {
+    color: #CBA65F;
+}
+
+.drivers-title .penske {
+    color: #CBA65F;
+}
+/* FIM PENSKE */
+
+/* ENVISION */
+.classification p.envision {
+    color: #00BE26;
+}
+
+.section-2 .stat p.envision {
+    color: #00BE26;
+}
+
+.drivers-title .envision {
+    color: #00BE26;
+}
+
+/* FIM ENVISION */
+
+/* ERT */
+.classification p.ert {
+    color: #E9FF1B;
+}
+
+.section-2 .stat p.ert {
+    color: #E9FF1B;
+}
+
+.drivers-title .ert {
+    color: #E9FF1B;
+}
+
+/* FIM ERT*/
+
+/* MASERATI */
+.classification p.maserati {
+    color: #001489;
+}
+
+.section-2 .stat p.maserati {
+    color: #001489;
+}
+
+.drivers-title .maserati {
+    color: #001489;
+}
+
+/* FIM MASERATI */
+
+/* MCLAREN */
+.classification p.mclaren {
+    color: #FF8000;
+}
+
+.section-2 .stat p.mclaren {
+    color: #FF8000;
+}
+
+.drivers-title .mclaren {
+    color: #FF8000;
+}
+
+/* FIM MCLAREN */
 .drivers-title span {
     color: black;
 }
