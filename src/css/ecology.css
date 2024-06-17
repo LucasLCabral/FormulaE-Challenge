@@ -1,8 +1,8 @@
-nav #teams {
+nav #ecology {
     color: blue;
 }
 
-nav #teams::before {
+nav #ecology::before {
     content: "";
     background-color: #0000FF;
     position: absolute;
@@ -22,6 +22,6 @@ nav #teams::before {
 
 .title-container h2 {
     margin: 20px;
-    margin-left: 330px;
+    margin-left: 350px;
     font-weight: 500;
 }

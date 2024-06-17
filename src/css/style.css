@@ -162,6 +162,22 @@ nav ul li a:hover::before{
     transform: scale(1.03);
 }
 
+.last-race{
+    text-decoration: none;
+    text-align: center;
+}
+.last-race a{
+    color: white;
+    text-decoration: none;
+}
+.last-race .flex{
+    gap: 10px;
+}
+
+.last-race i{
+    font-size: 20px;
+}
+
 .teams{
     margin-top: 50px;
 }
@@ -187,22 +203,41 @@ nav ul li a:hover::before{
     }
 }
 
-/* SLides */
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+/* RULES */
+section.rules h2{
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
+section.rules h2 span{
+    color: #0000FF;
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
+.rules-content .flex{
+    gap: 20px;
+}
 
+.rules-content .card{
+    margin-top: 50px;
+}
+
+.rules-content img{
+    width: 700px;
+    border-radius: 10px;
+}
+
+.rules-text h3{
+    font-size: 30px;
+}
+
+.rules-text p{
+    font-size: 18px;
+    margin-top: 15%;
+    text-align: justify;
+}
+
+.lastcard{
+    padding-bottom: 30px;
+}
+/*FIM RULES */
