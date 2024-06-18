@@ -311,6 +311,11 @@ section.rules h2 span{
     .e-tv-btn{
         display: none;
     }
+    
+    header .logo-nav img{
+        margin-left: -100px;
+        width: 250px;
+    }
 
     nav {
         display: flex;
@@ -332,13 +337,18 @@ section.rules h2 span{
         transition: all 0.3s;
     }
     
-    .nav-links {
+    .nav-links{
         display: flex;
+        flex-direction: column;
         list-style: none;
         margin: 0;
         padding: 0;
     }
     
+    .nav-links .flex{
+        flex-direction: column;
+    }
+
     .nav-links li {
         margin: 0 15px;
     }
@@ -355,6 +365,7 @@ section.rules h2 span{
         position: absolute;
         top: 60px;
         left: 200px;
+        z-index: 9999;
     }
 
     .nav-links li {
