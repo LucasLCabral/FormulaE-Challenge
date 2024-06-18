@@ -306,12 +306,16 @@ section.rules h2 span{
 
 @media screen and (max-width: 768px){
     .nav-links{
-        width: 100vw;
-        height: 40vh;
+        height: 100vh;
         margin: 0;     
         padding: 0;    
         box-sizing: border-box;
-        background-color: #fff
+        background-color: #fff;
+    }
+
+    ul.nav-links.active{
+        margin-top: 30px;
+        margin-left: -200px;
     }
 
     .e-tv-btn{
@@ -353,10 +357,12 @@ section.rules h2 span{
 
     .nav-links .flex{
         flex-direction: column;
+        padding-left: 30px;
     }
 
     .nav-links li {
-        margin: 0 15px;
+        margin: 0;
+        
     }
 
     .nav-links a {
