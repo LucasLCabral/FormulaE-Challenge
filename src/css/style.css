@@ -244,6 +244,11 @@ section.rules h2 span{
 }
 /*FIM RULES */
 
+@media screen and (max-width: 1679px){
+    .e-tv{
+        margin-left: -60px;
+    }
+}
 
 @media screen and (max-width: 1280px){
     .e-tv{
@@ -279,6 +284,37 @@ section.rules h2 span{
     }
 }
 
+@media screen and (max-width: 1229px){
+    .e-tv{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1229px){
+    .logo-nav img{
+        width: 100px;
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .e-tv{
+        margin-left: -70px;
+    }
+    
+    .flex{
+        margin-left: -45px;
+    }
+    .e-tv{
+        display: none;
+    }
+    .sign-in{
+        font-size: 15px;
+    }
+    
+    .register{
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 884px){
     .logo-nav img{
         width: 100px;
@@ -295,6 +331,26 @@ section.rules h2 span{
     .e-tv{
         display: none;
     }
+    .sign-in{
+        font-size: 15px;
+    }
+    
+    .register{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 853px){
+    .logo-nav img{
+        width: 80px;
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    
+    .flex{
+        margin-left: -60px;
+    }
+
     .sign-in{
         font-size: 15px;
     }

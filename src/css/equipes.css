@@ -240,4 +240,62 @@ body {
     opacity: 1;
 }
 
+@media screen and (max-width: 1280px){
+    .section-1 {
+        margin: 15px auto 0 auto;
+        bottom: 0;
+    }
+}
 
+
+@media screen and (max-width: 768px){
+    .section-1 {
+        max-width: 750px;
+    }
+
+    .content .car-image{
+        max-width: 300px;
+    }
+
+    .section-1 .logo, .section-2 .logo {
+        max-width: 300px;
+    }
+
+    .section-2{
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .section-1 {
+        max-width: 600px;
+        margin: 15px auto 0 auto;
+        bottom: 0;
+    }
+
+    .content .car-image{
+        max-width: 300px;
+    }
+
+    .section-1 .logo, .section-2 .logo {
+        max-width: 250px;
+        padding-right: 65px;
+    }
+
+    .section-2{
+        max-width: 750px;
+    }
+
+    .content{
+        flex-direction: column-reverse;
+    }
+
+    .driver{
+        flex-direction: column-reverse;
+    }
+
+    .stats{
+        display: flex;
+        gap: 1rem;
+    }
+}

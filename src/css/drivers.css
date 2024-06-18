@@ -19,3 +19,16 @@ nav #drivers::before{
     margin-left: 330px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 428px){
+    .title-container h2 {
+        margin: 20px;
+        margin-left: 150px;
+        font-weight: 500;
+    }
+
+    .swiper {
+        margin-top: 35px;
+        width: 85%;
+    }
+}

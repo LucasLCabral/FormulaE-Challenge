@@ -49,6 +49,12 @@ nav #rules::before {
     }
 }
 
+@media screen and (max-width: 768px){
+    .rules-content img{
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 428px){
     .flex{
         flex-direction: column;

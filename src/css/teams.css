@@ -25,3 +25,20 @@ nav #teams::before {
     margin-left: 330px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 428px){
+    .title-container h2 {
+        margin: 20px;
+        margin-left: 150px;
+        font-weight: 500;
+    }
+
+    .swiper {
+        position: relative;
+        margin-top: 30px;
+        width: 80%;
+        height: auto;
+        padding: 10px 40px;
+        overflow: hidden;
+    }
+}
