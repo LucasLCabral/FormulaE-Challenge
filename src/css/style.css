@@ -422,10 +422,13 @@ section.rules h2 span{
     }
 
     .menu-hamburger .bar {
-        width: 25px;
+        width: 40px;
         height: 3px;
-        background: #0039f3;
         margin: 4px 0;
-        transition: all 0.3s;
     }
+
+    .inicio h1{
+        font-size: 50px;
+    }
+    
 }

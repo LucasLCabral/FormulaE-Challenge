@@ -57,3 +57,24 @@ nav #ecology::before {
         width: 400px;
     }
 }
+
+@media screen and (max-width: 428px){
+    .flex{
+        flex-direction: column;
+    }
+    .rules-content img{
+        width: 300px;
+    } 
+
+    .card2{
+        flex-direction: column-reverse;
+    }
+
+    .card4{
+        flex-direction: column-reverse;
+    }
+
+    .rules-text h3{
+        padding-bottom: 20px;
+    }
+}
