@@ -188,7 +188,7 @@ nav ul li a:hover::before{
     font-weight: 500;
 }
 
-.banner-desktop video{
+.banner video{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -404,5 +404,28 @@ section.rules h2 span{
 
     .menu-hamburger.toggle .bar:nth-child(3) {
         transform: rotate(-45deg) translate(10px, -10px);
+    }
+}
+
+@media screen and (max-width: 428px){
+    .banner-desktop{
+        display: none;
+    }
+    .banner-mobile video{
+        display: block;
+    }
+
+    header .logo-nav img{
+        width: 200px;
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+
+    .menu-hamburger .bar {
+        width: 25px;
+        height: 3px;
+        background: #0039f3;
+        margin: 4px 0;
+        transition: all 0.3s;
     }
 }
