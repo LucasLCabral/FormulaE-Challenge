@@ -15,3 +15,12 @@ window.addEventListener('scroll', function() {
         }
     });
 });
+
+// script.js
+const menuHamburger = document.querySelector('.menu-hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+menuHamburger.addEventListener('click', () => {
+    menuHamburger.classList.toggle('toggle');
+    navLinks.classList.toggle('active');
+});

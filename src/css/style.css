@@ -244,6 +244,7 @@ section.rules h2 span{
 }
 /*FIM RULES */
 
+
 @media screen and (max-width: 1280px){
     .e-tv{
         margin-left: -70px;
@@ -276,5 +277,108 @@ section.rules h2 span{
         margin-left: 100px;
         gap: 10px;
     }
+}
+
+@media screen and (max-width: 884px){
+    .logo-nav img{
+        width: 100px;
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+
+    .e-tv{
+        margin-left: -70px;
+    }
     
+    .flex{
+        margin-left: -45px;
+    }
+
+    .e-tv{
+        display: none;
+    }
+
+    .sign-in{
+        font-size: 15px;
+    }
+    
+    .register{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .e-tv-btn{
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu-hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .menu-hamburger .bar {
+        width: 25px;
+        height: 3px;
+        background: #0039f3;
+        margin: 4px 0;
+        transition: all 0.3s;
+    }
+    
+    .nav-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-links li {
+        margin: 0 15px;
+    }
+    
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 200px;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-hamburger .bar:nth-child(2) {
+        opacity: 1;
+    }
+
+    .menu-hamburger.toggle .bar:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-hamburger.toggle .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-hamburger.toggle .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(10px, -10px);
+    }
 }

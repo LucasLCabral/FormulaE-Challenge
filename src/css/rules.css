@@ -41,8 +41,10 @@ nav #rules::before {
     .rules-content img{
         width: 650px;
     }
+}
 
-    .footer{
-        padding: 100px 0px;
+@media screen and (max-width: 884px){
+    .rules-content img{
+        width: 400px;
     }
 }
